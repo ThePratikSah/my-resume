@@ -1,0 +1,10 @@
+{
+  "name": "my-resume",
+  "private": true,
+  "scripts": {
+    "pdf": "md-to-pdf resume.md"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.5"
+  }
+}

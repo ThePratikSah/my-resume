@@ -1,81 +1,75 @@
 # **Pratik Sah**
-**Senior Software Engineer (Node.js | Distributed Systems | AWS/Serverless)**  
-Bengaluru, India  
-pratiksah@hotmail.com | +91-8709105800  
-[LinkedIn](https://www.linkedin.com/in/pratiksah/) | [GitHub](https://github.com/ThePratikSah) | [Blog](https://blog.pratik.dev)
+
+**Sr. Associate (Backend Engineer) · Node.js · React · Distributed Systems**
+Bengaluru, India · pratiksah@hotmail.com · (+91)-870-910-5800
+[LinkedIn](https://www.linkedin.com/in/pratiksah/) | [GitHub](https://github.com/ThePratikSah)
 
 ## **SUMMARY**
-Backend Engineer with **5+ years** of experience designing, scaling, and optimizing **distributed microservices** using **Go, Node.js, and cloud-native technologies**.  
-Skilled at building **high-throughput, low-latency APIs**, leveraging **Kafka, SNS/SQS, Redis, MongoDB and PostgreSQL** for reliable event-driven workflows.  
-Strong focus on **code quality, observability, and system resilience**, with hands-on experience in **CI/CD pipelines**, **Docker**, and **containerized deployments**.
 
-## **CORE COMPETENCIES**
-**Languages & Frameworks:** Node.js, NestJS, TypeScript, Express  
-**Databases:** MongoDB, PostgreSQL, MySQL, Redis  
-**Messaging & Queues:** AWS SNS/SQS, Kafka, RabbitMQ  
-**Cloud & Infrastructure:** AWS (EC2, S3, SNS, SQS, SES, Lambda, RDS, CDK), Docker, Kubernetes, GitHub Actions  
-**Architecture & Systems:** Microservices, Event-Driven Architecture, RESTful APIs, Observability (Grafana, Prometheus, ELK), Scalability, Fault Tolerance  
-**CI/CD & DevOps:** GitHub Actions, Bitbucket Pipelines, AWS CDK      
+Backend engineer with 5+ years building high-throughput distributed systems using Node.js, Go, and AWS, with prior experience in full-stack (React, React Native). Scaled Razorpay billing from 100K → 1.5M+ daily transactions using async architectures. Currently working with Emirates NBD (via Synechron) on banking-grade microservices.
+
+## **SKILLS**
+
+**Languages:** Go, Node.js, TypeScript, Python  
+**Frameworks:** NestJS, Express  
+**Frontend:** React, React Native  
+**Cloud & Containers:** AWS, GCP, Docker, AWS CDK  
+**Messaging:** Kafka, RabbitMQ, SNS/SQS  
+**Databases:** MongoDB, MySQL, DynamoDB, Redis  
+**Observability:** ELK Stack  
+**Architecture:** Microservices, Event-Driven, Serverless
 
 ## **EXPERIENCE**
 
-### **Razorpay Software Pvt. Ltd. — Product Development Engineer II**  
-*Jan 2024 – Nov 2025 | Bengaluru, India*
+### **Synechron Technologies — Sr. Associate (Backend Engineer)**
 
-- **Led** the migration of the core billing services from Node.js to Go, significantly improving system throughput, reducing API latency, and enhancing overall service reliability.  
-- **Architected** asynchronous workflows using **AWS SNS/SQS/S3**, reliably processing **1.5M+ bill generations/day** with guaranteed delivery.  
-- **Designed** and implemented **highly available RESTful APIs** in **Go** & **Node**, deployed on **Kubernetes**, backed by **MongoDB** and **Redis caching**.  
-- Enhanced **observability** with structured logging, distributed tracing, and Grafana dashboards for proactive monitoring.  
-- **Collaborated** with Product, DevOps, and QA teams to standardize async patterns across multiple microservices.  
-- **Mentored** engineers, drove design reviews, and promoted backend best practices through documentation and code quality initiatives.
+_Nov 2025 – Present | Bengaluru, India (Client: Emirates NBD, Dubai)_
 
-### **Bloom IT Solutions — Senior Software Engineer**  
-*Sept 2023 – Jan 2024 | Bengaluru, India*
+- Building Node.js microservices deployed on OpenShift (OCP) + Docker for banking workloads.
+- Designed ELK-based observability pipelines for centralized logging, monitoring, and alerting.
+- Integrated Kafka for event-driven communication, improving system resilience and decoupling.
+- Collaborating with ENBD teams on CI/CD, container lifecycle, and platform standards.
 
-- **Developed and deployed** scalable REST APIs using **Node.js**, **MongoDB**, and **AWS EC2**, improving request performance by ~25%.  
-- Delivered **cross-platform mobile app backend integrations** using **React Native**, ensuring seamless client-server communication.  
-- Implemented **Redis caching** and **API monitoring** for faster response and improved reliability.
+### **Razorpay — Product Development Engineer II**
 
-### **Altsys — Senior Software Engineer**  
-*Aug 2022 – Sept 2023 | Bengaluru, India*
+_Jan 2024 – Nov 2025 | Bengaluru_
 
-- **Owned** design and maintenance of RESTful APIs using **Node.js**, **MongoDB**, and **PostgreSQL**.  
-- Introduced **Redis caching** and background jobs to reduce query time and improve responsiveness.  
-- **Automated deployments** using **CI/CD pipelines (GitHub Actions + Docker)** with zero-downtime rollouts.  
-- Worked on **AWS EC2 and S3** for deployment and storage, maintaining 99.9% uptime.  
+- Led Node.js → Go migration, improving throughput by 45% and cutting latency by 30%.
+- Built distributed async pipelines (SNS/SQS/S3) handling 1.5M+ events/day.
+- Executed zero-downtime MongoDB → MySQL migration.
+- Mentored engineers and drove design reviews across microservices.
 
-### **Deqode — Solutions Engineer**  
-*Nov 2021 – Aug 2022 | Pune, India*
+### **Ethereal Covenant — Software Development Engineer**
 
-- Built **microservices** using **Node.js, MongoDB, RabbitMQ, PostgreSQL**, and **AWS** for partner clients.  
-- Migrated **Fittr** backend from PHP to Node.js (NestJS) improving performance and modularity.  
-- Implemented **event-driven workflows** with RabbitMQ for asynchronous operations.  
-- Enhanced service reliability with **centralized logging** and **health checks**.  
+_May 2023 – Dec 2023_
 
-### **CodeBucket Solutions — Full Stack Developer**  
-*Dec 2020 – Nov 2021 | Kochi, India*
+- Developed full-stack apps using React Native, Node.js, MongoDB, and AWS.
+- Contributed to UI components and frontend integration alongside backend services.
+- Improved response time ~25% via caching and query optimization.
 
-- Sole developer for **CM Udyami Yojna (Govt. of Bihar)** using **Node.js, Express.js, MySQL**, and **Nginx**.  
-- Built **real-time cab tracking system** using **Socket.io + Firebase** and **Redis**.  
-- Refactored legacy codebases and reduced technical debt while improving performance.  
+### **Altsys — Senior Software Engineer**
 
-### **Owls Eyes Pvt. Ltd. — Junior Developer Intern**  
-*Jul 2019 – Nov 2020 | Ranchi, India*
+_Aug 2022 – Sept 2023 | Bengaluru_
 
-- Contributed to **full-stack development** using Node.js, React.js, and Express.js.  
-- Gained foundational experience with **cloud deployments** on DigitalOcean.  
-- Worked on **WordPress and MySQL** for smaller-scale CMS-based projects.  
+- Owned backend services using Node.js, PostgreSQL, MongoDB and supported frontend integrations.
+- Introduced caching + CI/CD pipelines, improving reliability and latency.
+
+### **Deqode — Solutions Engineer**
+
+_Nov 2021 – Aug 2022 | Pune_
+
+- Built microservices using Node.js, RabbitMQ, MongoDB.
+- Migrated legacy systems to event-driven architecture (NestJS).
+
+### **CodeBucket Solutions — Full Stack Developer**
+
+_Dec 2020 – Nov 2021 | Kochi_
+
+- Built full-stack applications using React, Node.js, MySQL, NGINX.
+- Developed real-time systems using Socket.io, Firebase, and Redis.
+- Delivered production-ready UI and backend systems.
 
 ## **EDUCATION**
-**Bachelor of Technology in Computer Science**  
-Aryabhatta Knowledge University, Patna (2016 – 2020)  
 
-## **SELECTED ACHIEVEMENTS**
-- Scaled backend system from **100K → 1.5M+ daily transactions (Razorpay)**.  
-- Migrated monolithic services to **Go-based microservices** with async architecture.  
-- Designed **fault-tolerant, event-driven pipelines** for high-throughput data processing.  
-- Mentored engineers, conducted design reviews, and established code quality standards.  
-- Contributed to **open source** and authored **technical blogs** on backend scalability and design.  
-
-## **SUMMARY LINE**
-> Backend Lead-level engineer specializing in scalable, low-latency distributed systems using Go, Node.js, and AWS/GCP — with proven leadership in migration, observability, and delivery excellence.
+**B.Tech, Computer Science**  
+Aryabhatta Knowledge University (2016 – 2020)
