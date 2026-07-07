@@ -151,4 +151,4 @@ my-resume
 *.dylib
 *.test
 *.out
-go.sum
+
