@@ -2,7 +2,7 @@
   "name": "my-resume",
   "private": true,
   "scripts": {
-    "pdf": "md-to-pdf resume.md --no-sandbox"
+    "pdf": "md-to-pdf resume.md --launch-options '{\"args\": [\"--no-sandbox\"]}'"
   },
   "devDependencies": {
     "md-to-pdf": "^5.2.5"
