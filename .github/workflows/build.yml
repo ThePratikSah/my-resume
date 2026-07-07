@@ -1,19 +1,26 @@
 name: Build Resume PDF
+
 on:
   push:
     branches: [main]
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - uses: actions/setup-go@v5
         with:
-          node-version: 24
-      - run: npm ci
-      - run: npm run pdf
+          go-version: "1.22"
+
+      - run: go build -o my-resume .
+
+      - run: ./my-resume
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto-build resume.pdf"
