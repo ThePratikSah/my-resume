@@ -119,7 +119,7 @@ func buildSkills(m core.Maroto) {
 
 	for _, s := range skills {
 		m.AddRow(5,
-			col.New(3,
+			col.New(3).Add(
 				text.New(s.label+" ", props.Text{
 					Style: fontstyle.Bold,
 					Size:  10,
@@ -127,7 +127,7 @@ func buildSkills(m core.Maroto) {
 					Family: fontfamily.Arial,
 				}),
 			),
-			col.New(9,
+			col.New(9).Add(
 				text.New(s.items, props.Text{
 					Size:  10,
 					Family: fontfamily.Arial,
