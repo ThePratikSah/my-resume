@@ -1,8 +1,8 @@
 # **Pratik Sah**
 
-**Sr. Associate (Backend Engineer) · Node.js · React · Distributed Systems**
-Bengaluru, India · pratiksah@hotmail.com · (+91)-870-910-5800
-[LinkedIn](https://www.linkedin.com/in/pratiksah/) | [GitHub](https://github.com/ThePratikSah)
+**Sr. Associate (Backend Engineer) · Node.js · React · Distributed Systems**  
+Bengaluru, India  
+pratiksah@hotmail.com | (+91)-870-910-5800 | https://www.linkedin.com/in/pratiksah/ | https://github.com/ThePratikSah
 
 ## **SUMMARY**
 
