@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+.row {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 34% 66%;
+}
+
+h1 {
+  font-size: 16pt;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 10pt;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 600;
+  margin: 14px 0 2px;
+}
+
+em {
+  font-size: 9.5pt;
+  color: #666;
+}
+
+p {
+  margin-bottom: 6px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 4px;
+  font-size: 10pt;
+  line-height: 1.45;
+}
+
+.col:first-child {
+  background: #f4f5f7;
+  padding: 16px 18px;
+  border-radius: 4px;
+}
+
+.col:first-child h2 {
+  margin-top: 10px;
+}
+
+.col:first-child li {
+  margin-bottom: 3px;
+}
+
+.col:last-child li {
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 14px;
+}
+
+.col:last-child li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: #888;
+}
+
+.col:first-child p {
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

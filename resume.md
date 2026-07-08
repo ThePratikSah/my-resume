@@ -1,8 +1,23 @@
+---
+stylesheet:
+  - style.css
+pdf_options:
+  format: A4
+  margin: 12mm
+  printBackground: true
+---
+
+<div class="row">
+<div class="col">
+
 # **Pratik Sah**
 
 **Sr. Associate (Backend Engineer) · Node.js · Distributed Systems**  
 Bengaluru, India  
-hey.pratik.sah@gmail.com | (+91)-870-910-5800 | https://www.linkedin.com/in/pratiksah/ | https://github.com/ThePratikSah
+hey.pratik.sah@gmail.com  
+(+91)-870-910-5800  
+https://www.linkedin.com/in/pratiksah/  
+https://github.com/ThePratikSah
 
 ## **SUMMARY**
 
@@ -18,6 +33,15 @@ Backend engineer with 5+ years building high-throughput distributed systems usin
 **Databases:** MongoDB, MySQL, DynamoDB, Redis  
 **Observability:** ELK Stack  
 **Architecture:** Microservices, Event-Driven, Serverless
+
+## **EDUCATION**
+
+**B.Tech, Computer Science**  
+Aryabhatta Knowledge University (2016 – 2020)
+
+</div>
+
+<div class="col">
 
 ## **EXPERIENCE**
 
@@ -69,7 +93,6 @@ _Dec 2020 – Nov 2021 | Kochi_
 - Developed real-time systems using Socket.io, Firebase, and Redis.
 - Delivered production-ready UI and backend systems.
 
-## **EDUCATION**
+</div>
 
-**B.Tech, Computer Science**  
-Aryabhatta Knowledge University (2016 – 2020)
+</div>
