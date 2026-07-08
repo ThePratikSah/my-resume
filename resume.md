@@ -1,6 +1,6 @@
 # **Pratik Sah**
 
-**Sr. Associate (Backend Engineer) · Node.js · React · Distributed Systems**  
+**Sr. Associate (Backend Engineer) · Node.js · Distributed Systems**  
 Bengaluru, India  
 hey.pratik.sah@gmail.com | (+91)-870-910-5800 | https://www.linkedin.com/in/pratiksah/ | https://github.com/ThePratikSah
 
