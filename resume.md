@@ -3,7 +3,7 @@ stylesheet:
   - style.css
 pdf_options:
   format: A4
-  margin: 12mm
+  margin: 10mm
   printBackground: true
 ---
 
