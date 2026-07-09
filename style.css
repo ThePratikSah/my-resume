@@ -4,6 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
@@ -19,7 +26,8 @@ body {
 .row {
   display: grid;
   gap: 24px;
-  grid-template-columns: 34% 66%;
+  grid-template-columns: 1fr 2fr;
+  min-height: 100vh;
 }
 
 h1 {
@@ -76,6 +84,10 @@ li {
 
 .col:first-child li {
   margin-bottom: 3px;
+}
+
+.col:last-child {
+  padding-right: 8px;
 }
 
 .col:last-child li {

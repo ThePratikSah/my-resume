@@ -3,7 +3,7 @@ stylesheet:
   - style.css
 pdf_options:
   format: A4
-  margin: 10mm
+  margin: 0mm
   printBackground: true
 ---
 
@@ -15,9 +15,9 @@ pdf_options:
 **Sr. Associate (Backend Engineer) · Node.js · Distributed Systems**  
 Bengaluru, India  
 hey.pratik.sah@gmail.com  
-(+91)-870-910-5800  
-https://www.linkedin.com/in/pratiksah/  
-https://github.com/ThePratikSah
++91 8709105800  
+linkedin.com/in/pratiksah/  
+github.com/ThePratikSah
 
 ## **SUMMARY**
 
