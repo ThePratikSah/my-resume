@@ -2,7 +2,9 @@
   "name": "my-resume",
   "private": true,
   "scripts": {
-    "pdf": "md-to-pdf resume.md --launch-options '{\"args\": [\"--no-sandbox\"]}'"
+    "pdf": "md-to-pdf src/resume.md --launch-options '{\"args\": [\"--no-sandbox\"]}' && mv src/resume.pdf pdf/resume.pdf",
+    "coverletter": "md-to-pdf src/cover-letter.md --launch-options '{\"args\": [\"--no-sandbox\"]}' && mv src/cover-letter.pdf pdf/cover-letter.pdf",
+    "build": "npm run pdf && npm run coverletter"
   },
   "devDependencies": {
     "md-to-pdf": "^5.2.5"

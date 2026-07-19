@@ -13,8 +13,8 @@ jobs:
         with:
           node-version: 24
       - run: npm ci
-      - run: npm run pdf
+      - run: npm run build
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-build resume.pdf"
-          file_pattern: resume.pdf
+          commit_message: "chore: auto-build PDFs"
+          file_pattern: pdf/

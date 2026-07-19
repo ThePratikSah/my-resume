@@ -4,9 +4,28 @@ A forkable, version-controlled resume workflow powered by GitHub Actions, `md-to
 
 ---
 
+## Project structure
+
+```
+my-resume/
+├── src/                  # Source files (markdown + CSS)
+│   ├── resume.md
+│   ├── cover-letter.md
+│   ├── jd.md             # Job description reference
+│   └── style.css
+├── pdf/                  # Generated PDFs (git-committed)
+│   ├── resume.pdf
+│   └── cover-letter.pdf
+├── .github/workflows/    # CI/CD
+├── package.json
+└── README.md
+```
+
+---
+
 ## How it works
 
-The repo uses [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) to convert `resume.md` into a styled `resume.pdf`. A GitHub Action runs on every push to rebuild the PDF automatically.
+The repo uses [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) to convert `src/resume.md` into a styled `pdf/resume.pdf`. A GitHub Action runs on every push to rebuild the PDF automatically.
 
 ---
 
@@ -24,7 +43,7 @@ npm install
 
 ### 2. Write your base resume
 
-Edit `resume.md` with your details. The frontmatter controls PDF layout:
+Edit `src/resume.md` with your details. The frontmatter controls PDF layout:
 
 ```yaml
 ---
@@ -37,7 +56,7 @@ pdf_options:
 ---
 ```
 
-Customise `style.css` to match your personal branding.
+Customise `src/style.css` to match your personal branding.
 
 ### 3. Preview locally
 
@@ -45,17 +64,17 @@ Customise `style.css` to match your personal branding.
 npm run pdf
 ```
 
-This generates `resume.pdf` in the project root.
+This generates `pdf/resume.pdf`.
 
 ### 4. Commit your base resume
 
 ```
-git add resume.md resume.pdf style.css
+git add src/ pdf/
 git commit -m "feat: add base resume"
 git push
 ```
 
-The GitHub Action will rebuild `resume.pdf` on push. The commit-created PDF and the Action-built PDF should match.
+The GitHub Action will rebuild `pdf/resume.pdf` on push. The commit-created PDF and the Action-built PDF should match.
 
 ---
 
@@ -74,13 +93,13 @@ When applying to a specific role, create a branch for that company, ask an AI as
 2. **Ask an AI assistant to tailor the resume**
 
    Provide the assistant with:
-   - Your current `resume.md`
+   - Your current `src/resume.md`
    - The job description (paste it or give a link)
 
    Prompt example for Claude code, Codex or Opencode:
 
    ```
-   Update resume.md to tailor it for this job description.
+   Update src/resume.md to tailor it for this job description.
    Keep the same YAML frontmatter, Markdown structure, and
    general layout. Reword bullet points and skills to match
    the JD's keywords and requirements. Do not fabricate
@@ -93,17 +112,17 @@ When applying to a specific role, create a branch for that company, ask an AI as
    npm run pdf
    ```
 
-   Open `resume.pdf` to check the output.
+   Open `pdf/resume.pdf` to check the output.
 
 4. **Commit and push**
 
    ```
-   git add resume.md resume.pdf
+   git add src/ pdf/
    git commit -m "tailor resume for <company-name>"
    git push -u origin apply/<company-name>
    ```
 
-   The GitHub Action will rebuild `resume.pdf` on push.
+   The GitHub Action will rebuild `pdf/resume.pdf` on push.
 
 ---
 
@@ -113,8 +132,8 @@ When your career progresses, update `main` first, then rebase your application b
 
 ```
 git checkout main
-# edit resume.md with your new role/achievements
-git add resume.md resume.pdf && git commit -m "update base resume"
+# edit src/resume.md with your new role/achievements
+git add src/ pdf/ && git commit -m "update base resume"
 git push
 
 git checkout apply/<company-name>
@@ -127,6 +146,6 @@ git push --force-with-lease
 
 ## Resume
 
-[View Resume PDF](resume.pdf)
+[View Resume PDF](pdf/resume.pdf)
 
-The PDF is auto-generated from `resume.md` on every push via the [Build Resume PDF](.github/workflows/build.yml) workflow.
+The PDF is auto-generated from `src/resume.md` on every push via the [Build Resume PDF](.github/workflows/build.yml) workflow.

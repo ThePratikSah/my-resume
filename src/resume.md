@@ -1,9 +1,9 @@
 ---
 stylesheet:
-  - style.css
+  - src/style.css
 pdf_options:
   format: A4
-  margin: 0mm
+  margin: 10mm
   printBackground: true
 ---
 
@@ -12,27 +12,41 @@ pdf_options:
 
 # **Pratik Sah**
 
-**Sr. Associate (Backend Engineer) · Node.js · Distributed Systems**  
+**Sr. Associate**  
+Node | React | AWS | Distributed Systems  
 Bengaluru, India  
-hey.pratik.sah@gmail.com  
-+91 8709105800  
-linkedin.com/in/pratiksah/  
-github.com/ThePratikSah
+(open to Pune & remote)
+
+- hey.pratik.sah@gmail.com
+- +91 8709105800
+- linkedin.com/in/pratiksah
+- github.com/ThePratikSah
 
 ## **SUMMARY**
 
-Backend engineer with 5+ years building high-throughput distributed systems using Node.js, Go, and AWS, with prior experience in full-stack (React, React Native). Scaled Razorpay billing from 100K → 1.5M+ daily transactions using async architectures. Currently working with Emirates NBD (via Synechron) on banking-grade microservices.
+Senior Full Stack Engineer with 5+ years of experience building scalable **React** and **Node.js** applications backed by **AWS** cloud infrastructure. Experienced across full-stack development, distributed backend systems, REST APIs, **microservices**, and cloud-native architectures. Recently focused on backend platforms handling millions of daily transactions while continuing to collaborate on frontend integrations and end-to-end product delivery. Actively use AI-assisted development tools (**Claude Code**, **GitHub Copilot**, **Opencode**) to accelerate development and improve code quality.
 
 ## **SKILLS**
 
-**Languages:** Go, Node.js, TypeScript, Python  
-**Frameworks:** NestJS, Express  
-**Frontend:** React, React Native  
-**Cloud & Containers:** AWS, GCP, Docker, AWS CDK  
+**Languages:** TypeScript, Go, Python  
+**Frameworks & Runtimes:** Node.js, NestJS, Express, Gin  
+**Frontend:** React, React Native, Tailwind, Shadcn, TanStack Query  
+**Cloud & Containers:** AWS, GCP, Docker, Nginx, Caddy, AWS CDK  
 **Messaging:** Kafka, RabbitMQ, SNS/SQS  
 **Databases:** MongoDB, MySQL, DynamoDB, Redis  
-**Observability:** ELK Stack  
+**Observability:** ELK Stack, Grafana  
+**AI Tools:** Claude Code, GitHub Copilot, Opencode  
 **Architecture:** Microservices, Event-Driven, Serverless
+
+<div class="page-break"></div>
+
+## **PROJECTS**
+
+**ApiHealthz.com** — API uptime monitoring & alerting platform
+
+- Built end-to-end: **React** + Vite frontend, **Node.js** REST APIs on **AWS** Lambda, and **MongoDB** for storage.
+- Integrated WhatsApp and Slack alerts for real-time incident notifications to subscribers.
+- Provisioned infrastructure using **AWS CDK** for repeatable, infrastructure-as-code deployments.
 
 ## **EDUCATION**
 
@@ -45,52 +59,57 @@ Aryabhatta Knowledge University (2016 – 2020)
 
 ## **EXPERIENCE**
 
-### **Synechron Technologies — Sr. Associate (Backend Engineer)**
+### **Synechron Technologies — Sr. Associate**
 
 _Nov 2025 – Present | Bengaluru, India (Client: Emirates NBD, Dubai)_
 
-- Building Node.js microservices deployed on OpenShift (OCP) + Docker for banking workloads.
-- Designed ELK-based observability pipelines for centralized logging, monitoring, and alerting.
-- Integrated Kafka for event-driven communication, improving system resilience and decoupling.
+- Collaborated with frontend and product teams to design secure banking services consumed by web application for banking workloads.
+- Built and maintained React-based UI components for internal banking dashboards, working closely with UX designers.
+- Designed **ELK**-based observability pipelines for centralized logging, monitoring, and alerting.
+- Integrated **Kafka** for event-driven communication, improving system resilience and decoupling.
 - Collaborating with ENBD teams on CI/CD, container lifecycle, and platform standards.
+- Serve in a rotational on-call capacity, handling production incident response and troubleshooting across banking services.
 
 ### **Razorpay — Product Development Engineer II**
 
 _Jan 2024 – Nov 2025 | Bengaluru_
 
-- Led Node.js → Go migration, improving throughput by 45% and cutting latency by 30%.
-- Built distributed async pipelines (SNS/SQS/S3) handling 1.5M+ events/day.
-- Executed zero-downtime MongoDB → MySQL migration.
-- Mentored engineers and drove design reviews across microservices.
+- Led **Node.js** → **Go** migration, improving throughput by 45% and cutting latency by 30%.
+- Partnered with frontend engineers to design and evolve APIs supporting customer-facing billing experiences.
+- Built distributed async pipelines (**SNS/SQS**/S3) handling 1.5M+ events/day.
+- Executed zero-downtime **MongoDB** → **MySQL** migration.
+- Mentored engineers and drove design reviews across **microservices**.
+- Participated in on-call rotations, incident response, root cause analysis, and aligned team members on production issues.
 
 ### **Ethereal Covenant — Software Development Engineer**
 
 _May 2023 – Dec 2023_
 
-- Developed full-stack apps using React Native, Node.js, MongoDB, and AWS.
-- Contributed to UI components and frontend integration alongside backend services.
+- Developed customer-facing **React Native** applications integrated with **Node.js** REST APIs.
+- Built reusable UI components and collaborated on frontend architecture and feature implementation.
+- Worked across frontend and backend to deliver end-to-end product features.
 - Improved response time ~25% via caching and query optimization.
 
 ### **Altsys — Senior Software Engineer**
 
 _Aug 2022 – Sept 2023 | Bengaluru_
 
-- Owned backend services using Node.js, PostgreSQL, MongoDB and supported frontend integrations.
+- Owned backend services using **Node.js**, PostgreSQL, **MongoDB** and supported frontend integrations.
 - Introduced caching + CI/CD pipelines, improving reliability and latency.
 
 ### **Deqode — Solutions Engineer**
 
 _Nov 2021 – Aug 2022 | Pune_
 
-- Built microservices using Node.js, RabbitMQ, MongoDB.
-- Migrated legacy systems to event-driven architecture (NestJS).
+- Built **microservices** using **Node.js**, **RabbitMQ**, **MongoDB**.
+- Migrated legacy systems to event-driven architecture (**NestJS**).
 
 ### **CodeBucket Solutions — Full Stack Developer**
 
 _Dec 2020 – Nov 2021 | Kochi_
 
-- Built full-stack applications using React, Node.js, MySQL, NGINX.
-- Developed real-time systems using Socket.io, Firebase, and Redis.
+- Built full-stack applications using **React**, **Node.js**, **MySQL**, **NGINX**.
+- Developed real-time systems using Socket.io, Firebase, and **Redis**.
 - Delivered production-ready UI and backend systems.
 
 </div>
