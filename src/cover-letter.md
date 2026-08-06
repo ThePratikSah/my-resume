@@ -12,25 +12,25 @@ Bengaluru, India (open to Pune & remote)
 ---
 
 **Hiring Manager**  
-GoDaddy Commerce Engineering (Mission Control)
+Agile Labs
 
-**Re: Senior Software Development Engineer, Pune**
+**Re: Full-Stack Developer**
 
-I've spent the last five years building and operating production systems across the full stack, React frontends and Node.js/Go backends on AWS, most recently handling millions of transactions a day at Razorpay. The Mission Control role caught my eye because it mirrors the kind of work I enjoy most: owning complex features end-to-end, working across the stack, and being responsible for what ships.
+I've spent the last five years building production systems end-to-end — React frontends, Node.js backends, and the glue in between. The full-stack developer role at Agile Labs caught my attention because of how deliberately it's written: strict TypeScript, functional programming, clean modular code, and collaboration with design teams. That's not a checklist I'm trying to match — it describes how I already work.
 
-**What's relevant:**
+**What's directly relevant:**
 
-At Razorpay, I led a Node.js → Go migration that cut latency by 30% and built distributed async pipelines (SNS/SQS/S3) processing 1.5M+ events daily, the sort of scale and reliability. I also executed a zero-downtime MongoDB → MySQL migration and frequently partnered with frontend engineers on API design for customer-facing billing experiences.
+At Razorpay, I owned TypeScript-first services in a team that took type safety seriously — discriminated unions, strict null checks, and functional patterns to keep billing logic predictable and testable. I wrote unit and integration tests (Jest) for payment-critical paths, partnered with frontend engineers on API design, and drove design reviews across microservices. That mix of backend rigour and frontend collaboration is exactly what this role asks for.
 
-At Synechron (currently, with Emirates NBD), I'm building React dashboard for our tablet banking, designing ELK-based observability pipelines, and integrating Kafka for event-driven communication in a banking context. That on-call and incident response rhythm is familiar, I've been in rotation at both Razorpay and Synechron.
+At Synechron (currently, client: Emirates NBD), I'm building and maintaining React-based UI components for internal banking dashboards, working closely with UX designers — which maps directly to your vendor and design team collaboration requirement. On the backend, I'm integrating Kafka for event-driven communication and designing observability pipelines, so I'm used to context-switching across the stack within the same sprint.
 
-**On the frontend-heavy aspect:** I've built React apps (and React Native) throughout my career, from Razorpay billing UIs to internal banking dashboards to the full React + Vite frontend for ApiHealthz.com. I'm comfortable owning the frontend while also designing and shipping the backend services that power it.
+**On React Native:** I've shipped customer-facing React Native applications at Ethereal Covenant, integrated with Node.js REST APIs. Happy to lean into that if it becomes relevant.
 
-**On AI-assisted engineering:** I actively use Claude Code, GitHub Copilot, and Opencode in my daily workflow, not as a vibe-coding tool, but to accelerate the parts of development that benefit from it. I'm glad GoDaddy sees this as a strength.
+**On the learning culture:** Agile Labs' description resonated with me. I actively use AI-assisted tools (Claude Code, GitHub Copilot) not as shortcuts, but to stay sharp and move faster on the parts of development that don't need to be slow.
 
-I'm based in Bengaluru and open to relocating to Pune for a hybrid arrangement.
+I'm based in Bengaluru, open to remote and Pune.
 
-Thanks for your time. I'd welcome the chance to talk more about how my background aligns with what Mission Control is building.
+Thanks for reading. I'd be glad to discuss how I can contribute to what Agile Labs is building.
 
 Best,  
 Pratik Sah
