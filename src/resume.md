@@ -24,12 +24,12 @@ Bengaluru, India
 
 ## **SUMMARY**
 
-Senior Full Stack Engineer with 5+ years of experience building scalable **React** and **Node.js** applications backed by **AWS** cloud infrastructure. Experienced across full-stack development, distributed backend systems, REST APIs, **microservices**, and cloud-native architectures. Recently focused on backend platforms handling millions of daily transactions while continuing to collaborate on frontend integrations and end-to-end product delivery. Actively use AI-assisted development tools (**Claude Code**, **GitHub Copilot**, **Opencode**) to accelerate development and improve code quality.
+Senior Full Stack Engineer with 5+ years delivering end-to-end **React** and **Node.js** applications — from responsive UIs to scalable backend APIs — backed by **AWS** cloud infrastructure. Experienced across full-stack development, distributed backend systems, REST APIs, **microservices**, and cloud-native architectures. Write **strict TypeScript** and apply functional programming principles to keep code clean, modular, and maintainable. Actively use AI-assisted development tools (**Claude Code**, **GitHub Copilot**, **Opencode**) to accelerate development and improve code quality.
 
 ## **SKILLS**
 
 **Languages:** TypeScript, Go, Python  
-**Frameworks & Runtimes:** Node.js, NestJS, Express, Gin  
+**Frameworks & Runtimes:** Node.js, NestJS, Express.js, Gin  
 **Frontend:** React, React Native, Tailwind, Shadcn, TanStack Query  
 **Cloud & Containers:** AWS, GCP, Docker, Nginx, Caddy, AWS CDK  
 **Messaging:** Kafka, RabbitMQ, SNS/SQS  
@@ -74,11 +74,11 @@ _Nov 2025 – Present | Bengaluru, India (Client: Emirates NBD, Dubai)_
 
 _Jan 2024 – Nov 2025 | Bengaluru_
 
-- Led **Node.js** → **Go** migration, improving throughput by 45% and cutting latency by 30%.
+- Identified performance bottleneck and led **Node.js** → **Go** migration, improving throughput by 45% and cutting latency by 30%.
 - Partnered with frontend engineers to design and evolve APIs supporting customer-facing billing experiences.
 - Built distributed async pipelines (**SNS/SQS**/S3) handling 1.5M+ events/day.
 - Executed zero-downtime **MongoDB** → **MySQL** migration.
-- Mentored engineers and drove design reviews across **microservices**.
+- Wrote unit and integration tests (Jest) for critical billing services; mentored engineers and drove design reviews across **microservices**.
 - Participated in on-call rotations, incident response, root cause analysis, and aligned team members on production issues.
 
 ### **Ethereal Covenant — Software Development Engineer**
