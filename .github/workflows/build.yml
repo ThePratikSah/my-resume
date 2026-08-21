@@ -1,20 +1,20 @@
-name: Build Resume PDF
-on:
-  push:
-    branches: ["**"]
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
-      - run: npm ci
-      - run: npm run build
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: auto-build PDFs"
-          file_pattern: pdf/
+# name: Build Resume PDF
+# on:
+#   push:
+#     branches: ["**"]
+# permissions:
+#   contents: write
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v6
+#       - uses: actions/setup-node@v6
+#         with:
+#           node-version: 24
+#       - run: npm ci
+#       - run: npm run build
+#       - uses: stefanzweifel/git-auto-commit-action@v5
+#         with:
+#           commit_message: "chore: auto-build PDFs"
+#           file_pattern: pdf/
